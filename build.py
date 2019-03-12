@@ -5,7 +5,7 @@ from conan.packager import ConanMultiPackager
 if __name__ == "__main__":
     username = "tessil"
     channel = "stable"
-    upload_remote = "https://api.bintray.com/conan/tessil/tsl"
+    upload_remote = "https://api.bintray.com/conan/tessil/tsl" if os.getenv("TRAVIS_TAG") else None
     test_folder = "test_package"
 
     builder = ConanMultiPackager(username=username,
