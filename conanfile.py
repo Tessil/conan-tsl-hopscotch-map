@@ -5,7 +5,7 @@ class TslHopscotchMapConan(ConanFile):
     name = "tsl-hopscotch-map"
     version = "2.2.1"
     license = "MIT"
-    description="C++ implementation of a fast hash map and hash set using hopscotch hashing."
+    description = "C++ implementation of a fast hash map and hash set using hopscotch hashing."
     homepage = "https://github.com/Tessil/hopscotch-map"
     url = "https://github.com/Tessil/conan-tsl-hopscotch-map"
     exports = "LICENSE"
