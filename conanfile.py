@@ -3,7 +3,7 @@ import os
 
 class TslHopscotchMapConan(ConanFile):
     name = "tsl-hopscotch-map"
-    version = "2.2.1"
+    version = "2.3.0"
     license = "MIT"
     description = "C++ implementation of a fast hash map and hash set using hopscotch hashing."
     homepage = "https://github.com/Tessil/hopscotch-map"
